@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bütçe Asistanı</string>
+    <array name="giderKatagoriler">
+        <item>Alışveriş</item>
+        <item>Faturalar</item>
+        <item>Ulaşım</item>
+        <item>Yemek</item>
+        <item>Sağlık</item>
+        <item>Diğer</item>
+    </array>
+    <array name="gelirKatagoriler">
+        <item>Maaş</item>
+        <item>Diğer</item>
+    </array>
+    <string name="gelir">Gelir</string>
+    <string name="gider">Gider</string>
+    <string name="kullaniciEkle">Kullanıcı Ekle</string>
+</resources>

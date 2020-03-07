@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/gelir"
+        android:orderInCategory="0"
+        android:title="Gelir"/>
+    <item
+        android:id="@+id/gider"
+        android:orderInCategory="0"
+        android:title="Gider"/>
+    <item
+        android:id="@+id/kullaniciEkle"
+        android:orderInCategory="0"
+
+        android:title="Kullanıcı Ekle"/>
+</menu>

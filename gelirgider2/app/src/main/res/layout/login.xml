@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradientlogin">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="143dp"
+        android:layout_height="216dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/txtAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bütçe Asistanı"
+        android:textColor="@color/colorWhite"
+        android:textSize="50dp"
+        android:fontFamily="cursive"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp" />
+
+    <EditText
+        android:id="@+id/edtKullaniciAdi"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/txtAppName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:textColor="@color/colorWhite"
+        android:hint="Kullanıcı Adı"
+        android:textColorHint="@color/colorWhite"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:drawablePadding="10dp"
+
+        android:drawableLeft="@drawable/ic_action_name"
+        />
+
+    <EditText
+        android:id="@+id/edtSifre"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/edtKullaniciAdi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorWhite"
+        android:hint="Sifre"
+        android:textColorHint="@color/colorWhite"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="10dp"
+
+        />
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/edtSifre">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGiris1"
+            android:layout_weight="1"
+            android:textColor="@color/colorPurple"
+            android:text="Giriş Yap"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnGiris"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="Giriş Yap"
+            android:textColor="@color/colorPurple" />
+
+        <Button
+            android:id="@+id/btnKaydet"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Yeni Kayıt"
+            android:textColor="@color/colorPurple"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
