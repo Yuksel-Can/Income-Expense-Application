@@ -31,17 +31,9 @@ public class Login_activity extends AppCompatActivity {
                 startActivity(intent2);
             }
         });
-        btnGiris1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent2= new Intent(Login_activity.this,MainActivity.class);
-                startActivity(intent2);
-            }
-        });
     }
     public void tanimla(){
         btnGiris =findViewById(R.id.btnGiris);
         btnKaydet=findViewById(R.id.btnKaydet);
-        btnGiris1=findViewById(R.id.btnGiris1);
     }
 }
