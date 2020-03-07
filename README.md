@@ -22,7 +22,7 @@ Run the files with `Android Studio`
 ## Screenshots
 ![git1](https://user-images.githubusercontent.com/47951588/76143950-97ff4b80-608c-11ea-9c7e-5dda765cca4b.jpg)
 ![git2](https://user-images.githubusercontent.com/47951588/76144436-6b99fe00-6091-11ea-82a5-46686a61aa17.jpg)
-![git3](https://user-images.githubusercontent.com/47951588/76143970-b6fddd80-608c-11ea-9b00-31fe1e7c32cd.jpg)
+![git3](https://user-images.githubusercontent.com/47951588/76145060-0812cf00-6097-11ea-8d90-bf2fc4add428.jpg)
 ![git4](https://user-images.githubusercontent.com/47951588/76143975-bfeeaf00-608c-11ea-9f43-039b0a076241.jpg)
 ## Issues
 *There are more than one problem and bug in the project. I am waiting for all your help and support for application problems
